@@ -1,6 +1,6 @@
 {
   "name": "@turbo-cli-dev/core",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "turbo-cli-dev core",
   "author": "turboson <fangfang.zhang@slan-health.com>",
   "homepage": "",
@@ -20,6 +20,6 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@turbo-cli-dev/utils": "^1.0.2"
+    "@turbo-cli-dev/utils": "^1.0.4"
   }
 }
