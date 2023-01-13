@@ -1,0 +1,22 @@
+{
+  "name": "@turbo-cli-dev/core",
+  "version": "1.0.0",
+  "description": "turbo-cli-dev core",
+  "author": "turboson <fangfang.zhang@slan-health.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@turbo-cli-dev/utils": "^1.0.0"
+  }
+}

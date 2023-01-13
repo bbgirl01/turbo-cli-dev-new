@@ -1,0 +1,21 @@
+{
+  "name": "@turbo-cli-dev/utils",
+  "version": "1.0.0",
+  "description": "turbo-cli-dev utils",
+  "author": "turboson <fangfang.zhang@slan-health.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "dependencies": {
+  }
+}
