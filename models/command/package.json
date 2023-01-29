@@ -1,0 +1,35 @@
+{
+  "name": "@turbo-cli-dev/command",
+  "version": "1.0.4",
+  "description": "turbo-cli-dev command",
+  "author": "turboson <fangfang.zhang@slan-health.com>",
+  "homepage": "https://github.com/bbgirl01/turbo-cli-dev-new#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbgirl01/turbo-cli-dev-new.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@turbo-cli-dev/command.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/bbgirl01/turbo-cli-dev-new/issues"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "semver": "^7.3.8",
+    "@turbo-cli-dev/log": "^1.0.4",
+    "@turbo-cli-dev/utils": "^1.0.4"
+  }
+}
