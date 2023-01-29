@@ -1,6 +1,6 @@
 {
   "name": "@turbo-cli-dev/init",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turbo-cli-dev init",
   "author": "turboson <fangfang.zhang@slan-health.com>",
   "homepage": "https://github.com/bbgirl01/turbo-cli-dev-new#readme",
@@ -24,8 +24,8 @@
     "url": "https://github.com/bbgirl01/turbo-cli-dev-new/issues"
   },
   "dependencies": {
-    "@turbo-cli-dev/command": "^1.0.4",
-    "@turbo-cli-dev/log": "^1.0.4",
+    "@turbo-cli-dev/command": "^1.0.5",
+    "@turbo-cli-dev/log": "^1.0.5",
     "fs-extra": "^11.1.0",
     "inquirer": "^9.1.4",
     "semver": "^7.3.8"

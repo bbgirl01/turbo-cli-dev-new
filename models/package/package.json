@@ -1,6 +1,6 @@
 {
   "name": "@turbo-cli-dev/package",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "turbo-cli-dev package",
   "author": "turboson <fangfang.zhang@slan-health.com>",
   "homepage": "https://github.com/bbgirl01/turbo-cli-dev-new#readme",
@@ -27,9 +27,9 @@
     "url": "https://github.com/bbgirl01/turbo-cli-dev-new/issues"
   },
   "dependencies": {
-    "@turbo-cli-dev/format-path": "^v1.0.0",
-    "@turbo-cli-dev/get-npm-info": "^v1.0.0",
-    "@turbo-cli-dev/utils": "^v1.0.4",
+    "@turbo-cli-dev/format-path": "^1.0.5",
+    "@turbo-cli-dev/get-npm-info": "^1.0.5",
+    "@turbo-cli-dev/utils": "^1.0.5",
     "fs-extra": "^11.1.0",
     "npminstall": "^7.4.0",
     "path-exists": "^4.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "@turbo-cli-dev/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turbo-cli-dev core",
   "author": "turboson <fangfang.zhang@slan-health.com>",
   "homepage": "",
@@ -20,10 +20,10 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@turbo-cli-dev/exec": "^1.0.4",
-    "@turbo-cli-dev/init": "^1.0.4",
-    "@turbo-cli-dev/log": "^1.0.4",
-    "@turbo-cli-dev/utils": "^1.0.4",
+    "@turbo-cli-dev/exec": "^1.0.5",
+    "@turbo-cli-dev/init": "^1.0.5",
+    "@turbo-cli-dev/log": "^1.0.5",
+    "@turbo-cli-dev/utils": "^1.0.5",
     "colors": "^1.4.0",
     "commander": "^10.0.0",
     "dotenv": "^16.0.3",
