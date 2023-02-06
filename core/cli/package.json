@@ -32,5 +32,6 @@
     "path-exists": "^4.0.0",
     "semver": "^7.3.8",
     "user-home": "^3.0.0"
-  }
+  },
+  "gitHead": "b5fdf2f05c8635cffecf8bd202ff2d0f0a25ba91"
 }

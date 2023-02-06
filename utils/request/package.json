@@ -1,7 +1,7 @@
 {
-  "name": "@turbo-cli-dev/format-path",
+  "name": "@turbo-cli-dev/request",
   "version": "1.0.5",
-  "description": "turbo-cli-dev format-path",
+  "description": "turbo-cli-dev request",
   "author": "turboson <fangfang.zhang@slan-health.com>",
   "homepage": "https://github.com/bbgirl01/turbo-cli-dev-new#readme",
   "license": "ISC",
@@ -21,10 +21,12 @@
     "url": "git+https://github.com/bbgirl01/turbo-cli-dev-new.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@turbo-cli-dev/format-path.test.js"
+    "test": "node ./__tests__/@turbo-cli-dev/request.test.js"
   },
   "bugs": {
     "url": "https://github.com/bbgirl01/turbo-cli-dev-new/issues"
   },
-  "gitHead": "b5fdf2f05c8635cffecf8bd202ff2d0f0a25ba91"
+  "dependencies": {
+    "axios": "^1.2.6"
+  }
 }

@@ -1,7 +1,7 @@
-"use strict";
-const semver = require("semver");
-const axios = require("axios");
-const urlJoin = require("url-join");
+'use strict';
+const semver = require('semver');
+const axios = require('axios');
+const urlJoin = require('url-join');
 
 function getNpmInfo(npmName, regisrty) {
   if (!npmName) {
@@ -12,21 +12,21 @@ function getNpmInfo(npmName, regisrty) {
   // console.log("getNpmInfo", npmName, npmInfoUrl);
   return axios
     .get(npmInfoUrl)
-    .then((response) => {
+    .then(response => {
       if (response.status === 200) {
         return response.data;
       }
       return null;
     })
-    .catch((err) => {
+    .catch(err => {
       return Promise.reject(err);
     });
 }
 
-function getDefaultRegistry(isOriginal = false) {
+function getDefaultRegistry(isOriginal = true) {
   return isOriginal // 是否是原生的
-    ? "https://registry.npmjs.org"
-    : "https://registry.npm.taobao.org";
+    ? 'https://registry.npmjs.org'
+    : 'https://registry.npm.taobao.org';
 }
 
 async function getNpmVersions(npmName, registry) {

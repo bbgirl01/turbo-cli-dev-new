@@ -15,5 +15,10 @@
   ],
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
+  },
+  "gitHead": "b5fdf2f05c8635cffecf8bd202ff2d0f0a25ba91",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cli-spinner": "^0.2.10"
   }
 }

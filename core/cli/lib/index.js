@@ -51,7 +51,6 @@ function registerCommand() {
       process.env.LOG_LEVEL = "info";
     }
     log.level = process.env.LOG_LEVEL;
-    log.verbose("test");
   });
 
   // 指定targetPath

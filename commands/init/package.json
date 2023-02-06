@@ -26,8 +26,14 @@
   "dependencies": {
     "@turbo-cli-dev/command": "^1.0.5",
     "@turbo-cli-dev/log": "^1.0.5",
+    "@turbo-cli-dev/package": "^1.0.5",
+    "@turbo-cli-dev/request": "^1.0.5",
+    "@turbo-cli-dev/utils": "^1.0.5",
     "fs-extra": "^11.1.0",
     "inquirer": "^9.1.4",
-    "semver": "^7.3.8"
-  }
+    "kebab-case": "^1.0.2",
+    "semver": "^7.3.8",
+    "user-home": "^3.0.0"
+  },
+  "gitHead": "b5fdf2f05c8635cffecf8bd202ff2d0f0a25ba91"
 }
